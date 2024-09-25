@@ -1,0 +1,52 @@
+#ds_icon_expansion-settings #wadip-custom-upload-modal-container {
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  width      : 100vw;
+  height     : 100vh;
+  background : rgba(0, 0, 0, 0.75);
+  z-index    : 9999;
+  display    : none;
+
+  #wadip-custom-upload-modal {
+    display          : block;
+    position         : relative;
+    max-width        : 400px;
+    top              : 10vw;
+    width            : 100%;
+    margin           : 0 auto;
+    padding          : 35px 2%;
+    background-color : #fff;
+    box-shadow       : 0px 0px 12px #92929229;
+    border-radius    : 9px;
+    font-family      : "Montserrat", sans-serif;
+
+    @media (min-width : $breakLarge) {
+      max-width : 600px;
+      }
+
+    h4 {
+      text-transform : uppercase;
+      color          : #3a3a3a;
+      font-weight    : 800;
+      margin-bottom  : 30px;
+      font-size      : 18px;
+      font-family : "Montserrat", sans-serif;
+      }
+
+    p {
+      margin-bottom : 10px;
+      }
+
+    }
+
+  .wadip-custom-upload-modal-input-wrapper {
+    margin-bottom : 25px;
+
+    input[type="text"] {
+      margin-bottom : 10px;
+      }
+
+    }
+
+  }
